@@ -1,25 +1,25 @@
-# Master CT Assignment Template 
-
-Use this master template to create CT Assignment Templates.
+# Rectangle Perimeter Calculator
 
 ## Problem Description
-Problem description goes here. 
+This program should calculate the perimeter of a rectangle, but it has some errors. Find and fix the errors so it runs correctly. Be sure to output is formatted to match the expected output! 
 
-* Steps to take go here. 
+### Pseudocode
+* Get base and height of rectangle (assume integer values)
+* Calculate perimeter and assign the value to a variable
+* Print a message that includes the calculated perimeter.
+    * The message should read: "The perimeter of the rectangle is ___.", where ___ is the calculated value.
 
-## Example
+### Example
 ```
-Value to increment? 5
-10
+Base: 5
+Height: 10
+Output: The perimeter of the rectangle is 30.
 ```
 
-## Suggested Approach
-1) Suggestions go here
+### Submitting your program
+When you are finished, double-check that your output is formatted correctly.
 
-## Hints
-* Use the section under `if __name__ == '__main__': ` to change arguments and check your work.
-* When you are happy with your code, use `input()` to prompt the user for a value.
-* Add code to [my_code.py](./my_code.py) to make it do the desired thing.
-* Run your code with: `python my_code.py` or the run button
-* Run your tests with: `pytest`
-
+Then, commit and push to GitHub.
+* Be sure to go to the GitHub repo and check to be sure your program passed the automatic test.
+* If you get a green check-mark, you're done. A red X means you need to make some changes. Double-check the formatting of your print statement!
+* Questions? Ask for help!
